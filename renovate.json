@@ -1,7 +1,8 @@
 {
   "extends": [
     ":dependencyDashboard",
-    "config:recommended",
+    "config:recommended"
   ],
-  "additionalBranchPrefix": "{{packageFileDir}}-",
+  "branchNameStrict": "true",
+  "additionalBranchPrefix": "{{packageFileDir}}-"
 }
